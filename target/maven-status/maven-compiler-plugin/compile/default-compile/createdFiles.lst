@@ -1,0 +1,5 @@
+com\pages\InsurancePage.class
+com\utility\Config.class
+com\utility\Utility.class
+com\pages\LandingPage.class
+com\utility\ConfigReader.class

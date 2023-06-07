@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="137.922" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Insurance" name="Verify Search functionality with valid Insurer - Example #1.1" time="35.87">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+When User navigate on the Insurance page....................................passed
+Then User enters in Search Insurer from sheetname "Sheet1" and rownumber 0..passed
+Then It display the list of Insurer available...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance" name="Verify Search functionality with valid Insurer - Example #1.2" time="33.902">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+When User navigate on the Insurance page....................................passed
+Then User enters in Search Insurer from sheetname "Sheet1" and rownumber 1..passed
+Then It display the list of Insurer available...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance" name="Verify Search functionality with invalid Insurer - Example #1.1" time="33.854">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+And User navigate on the Insurance page.....................................passed
+Then User enters in Search Insurer from sheetname "Sheet2" and rownumber 0..passed
+Then It shows No result found...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance" name="Verify Search functionality with invalid Insurer - Example #1.2" time="34.123">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+And User navigate on the Insurance page.....................................passed
+Then User enters in Search Insurer from sheetname "Sheet2" and rownumber 1..passed
+Then It shows No result found...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

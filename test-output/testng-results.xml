@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-07T14:35:57 IST" name="Default suite" finished-at="2023-06-07T14:38:16 IST" duration-ms="138420">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-07T14:35:57 IST" name="Default test" finished-at="2023-06-07T14:38:16 IST" duration-ms="138420">
+      <class name="testrunner.Insurance_Excel_TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" started-at="2023-06-07T14:35:57 IST" name="setUpClass" finished-at="2023-06-07T14:35:58 IST" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45eab322]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" started-at="2023-06-07T14:35:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-07T14:36:34 IST" duration-ms="35940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Search functionality with valid Insurer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insurance"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" started-at="2023-06-07T14:36:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-07T14:37:08 IST" duration-ms="33908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Search functionality with valid Insurer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insurance"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" started-at="2023-06-07T14:37:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-07T14:37:41 IST" duration-ms="33860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Search functionality with invalid Insurer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insurance"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" started-at="2023-06-07T14:37:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-07T14:38:16 IST" duration-ms="34126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Search functionality with invalid Insurer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Insurance"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.Insurance_Excel_TestRunner@16eb3ea3]" started-at="2023-06-07T14:38:16 IST" name="tearDownClass" finished-at="2023-06-07T14:38:16 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.Insurance_Excel_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

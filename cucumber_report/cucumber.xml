@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="103.67" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Insurance" name="Verify Search functionality with valid Insurer - Example #1.1" time="35.17">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+When User navigate on the Insurance page....................................passed
+Then User enters in Search Insurer "icici lombard General insurance company".passed
+Then It display the list of Insurer available...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance" name="Verify Search functionality with invalid Insurer - Example #1.1" time="34.136">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+And User navigate on the Insurance page.....................................passed
+Then User enters in Search Insurer "wrong data1"............................passed
+Then It shows No result found...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insurance" name="Verify Search functionality with invalid Insurer - Example #1.2" time="34.187">
+<system-out><![CDATA[
+Given Chrome is opened and  Apollo247 app is opened.........................passed
+When User click on the Insurance page.......................................passed
+And User navigate on the Insurance page.....................................passed
+Then User enters in Search Insurer "wrong data".............................passed
+Then It shows No result found...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
